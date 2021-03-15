@@ -11,5 +11,8 @@ export class CalculadoraComponent implements OnInit {
 
   ngOnInit(): void {
   }
+n1 : number;
+n2 : number;
+res : number;
 
 }
