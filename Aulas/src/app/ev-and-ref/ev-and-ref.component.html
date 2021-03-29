@@ -1,0 +1,5 @@
+<input type="text" [style.background]="cor" (mouseenter)='changecolor("red")' (focus)='changecolor("pink")' (blur)='changecolor("grey")'
+(input)='changecolor("green")' (copy)='changecolor("yellow")' #ref>
+
+<button (click)='Aumentar(ref)'>aumentar</button>
+<button (click)='rodar(ref)'>Rodar</button>

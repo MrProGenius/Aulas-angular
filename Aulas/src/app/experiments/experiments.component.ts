@@ -15,6 +15,8 @@ export class ExperimentsComponent implements OnInit {
 changeName(event){
   this.name = event.target.value;
 
+
 }
+arrayAnimais : Array<string> = ["cao","gato", "papagaio", "texugo"]
 
 }
